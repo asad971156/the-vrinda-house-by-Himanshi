@@ -1,6 +1,10 @@
 html{
     scroll-behavior:smooth;
-    scroll-padding-top:70px;
+    scroll-padding-top:95px;
+}
+
+section{
+    scroll-margin-top:95px;
 }
 
 
@@ -52,8 +56,8 @@ nav a:hover{
 }
 
 .hero{
-    height:calc(100vh - 58px);
-    margin-top:130px;
+    min-height:100vh;
+    padding-top:95px;
     background-image:url("hero.jpg");
     background-size:cover;
     background-position:center;
