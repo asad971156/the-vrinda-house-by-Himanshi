@@ -16,6 +16,7 @@ section{
 }
 
 body{
+    margin:0;
     background:#f8f6f2;
     color:#333;
 }
