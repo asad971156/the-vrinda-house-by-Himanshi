@@ -7,7 +7,8 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     if (target) {
       e.preventDefault();
 
-      const offset = header.offsetHeight + 15;
+      const topBar = document.querySelector(".top-booking");
+const offset = header.offsetHeight + (topBar ? topBar.offsetHeight : 0) + 15;
 
       window.scrollTo({
         top: target.offsetTop - offset,
