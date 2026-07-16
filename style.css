@@ -1,10 +1,10 @@
 html{
     scroll-behavior:smooth;
-    scroll-padding-top:95px;
+    scroll-padding-top:145px;
 }
 
 section{
-    scroll-margin-top:95px;
+    scroll-margin-top:145px;
 }
 
 
