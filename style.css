@@ -23,7 +23,7 @@ body{
 header{
     position:fixed;
     width:100%;
-    top:0;
+    top:48;
     left:0;
     display:flex;
     justify-content:space-between;
@@ -41,6 +41,16 @@ header{
     font-size:28px;
     font-weight:bold;
     color:#8B5E3C;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+nav a{
+    display:inline-block;
 }
 
 nav a{
